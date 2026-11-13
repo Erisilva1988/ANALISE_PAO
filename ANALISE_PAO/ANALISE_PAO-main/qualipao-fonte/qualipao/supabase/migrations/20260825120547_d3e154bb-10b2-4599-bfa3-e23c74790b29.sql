@@ -1,0 +1,2 @@
+CREATE POLICY "Relatorios upload" ON storage.objects FOR INSERT WITH CHECK (bucket_id = 'relatorios');
+CREATE POLICY "Relatorios leitura" ON storage.objects FOR SELECT USING (bucket_id = 'relatorios');

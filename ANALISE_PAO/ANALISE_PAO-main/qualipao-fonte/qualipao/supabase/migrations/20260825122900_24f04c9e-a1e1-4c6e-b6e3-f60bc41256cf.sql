@@ -1,0 +1,1 @@
+ALTER TABLE public.auditorias ADD COLUMN IF NOT EXISTS json_path text, ADD COLUMN IF NOT EXISTS json_url text;
